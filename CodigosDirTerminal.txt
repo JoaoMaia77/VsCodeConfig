@@ -1,0 +1,11 @@
+cd <caminho_da_pasta>       # Navegar para uma pasta específica
+cd ..                       # Voltar uma pasta (um nível acima)
+ls                          # Listar o conteúdo do diretório
+pwd                         # Exibir o diretório atual
+mkdir <nome_da_pasta>       # Criar um novo diretório
+rmdir <nome_da_pasta>       # Remover um diretório vazio
+rm <nome_do_arquivo>        # Remover um arquivo
+rm -r <nome_do_diretorio>   # Remover um diretório e seu conteúdo
+cd ~                        # Ir para o diretório raiz do usuário
+cd \                        # Ir para o diretório raiz do sistema
+ii .                        # Abrir o Explorer na pasta atual

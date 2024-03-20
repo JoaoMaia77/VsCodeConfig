@@ -1,0 +1,21 @@
+PRIMEIRA VEZ QUE BAIXOU TEM QUE REGISTRAR SUA MÁQUINA!!
+
+-----------------------------------------------------------
+git config --global user.name "Seu Nome" |O MESMO DO GITHUB, É SEU NOME NÃO USUARIO!|
+git config --global user.email "seuemail@example.com" |O MESMO DO GITHUB!|
+-----------------------------------------------------------
+
+git init                        # Inicializa um repositório Git local em seu projeto
+git clone <url_do_repositório>  # Clona um repositório remoto para o seu computador
+git add .                       # Adiciona todas as alterações no diretório de trabalho ao índice (staging)
+git commit -m "mensagem"        # Registra as alterações no repositório com uma mensagem descritiva
+git push                        # Envia as alterações locais para o repositório remoto
+git pull                        # Atualiza o repositório local com as alterações do repositório remoto
+git branch                      # Lista todas as branches no repositório local
+git branch <nome_da_branch>     # Cria uma nova branch
+git checkout <nome_da_branch>   # Muda para uma branch específica
+git merge <nome_da_branch>      # Mescla uma branch na branch atual
+git status                      # Exibe o status das alterações no diretório de trabalho e no índice
+git log                         # Exibe o histórico de commits
+git remote -v                   # Lista os repositórios remotos configurados
+git remote add origin <url_do_repositorio_remoto>  # Adiciona um repositório remoto
