@@ -18,4 +18,24 @@ git merge <nome_da_branch>      # Mescla uma branch na branch atual
 git status                      # Exibe o status das alterações no diretório de trabalho e no índice
 git log                         # Exibe o histórico de commits
 git remote -v                   # Lista os repositórios remotos configurados
-git remote add origin <url_do_repositorio_remoto>  # Adiciona um repositório remoto
+git remote add origin <url_do_repositorio_remoto>  # Adiciona um repositório  
+public static void removerPares(Stack<Integer> pilha) {
+        // Caso base: se a pilha estiver vazia, retorna
+        if (pilha.isEmpty()) {
+            return;
+        }
+
+        // Remove o topo
+        int topo = pilha.pop();
+
+        // Chamada recursiva para processar o restante
+        removerPares(pilha);
+
+        // Se for ímpar, insere de volta
+        if (topo % 2 != 0) {
+            pilha.push(topo);
+        }
+        // Se for par, ele é simplesmente descartado
+    }
+
+
